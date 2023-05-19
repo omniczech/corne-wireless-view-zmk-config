@@ -48,7 +48,7 @@
                   &kp ESC &kp TAB &lt 3 SPACE   &lt 4 RET &kp BSPC &kp LSHFT
                         >;
                 };
-                num_layer {
+                layer1 {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
