@@ -42,10 +42,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp GRAVE HRML(A    ,R    ,S,  T) &kp G   &kp M HRMR(N,    E,        I,        O) &kp SQT
-   &sk LSHIFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp ESC &kp TAB &lt 3 SPACE   &lt 4 RET &kp BSPC &mt LSHFT DEL
+   &kp TAB   &kp Q  &kp W &kp F     &kp P     &kp B         &kp J     &kp L      &kp U         &kp Y   &kp SEMI &kp BSPC
+   &kp GRAVE HRML(A    ,R    ,S,    T)        &kp G         &kp M     HRMR(N,    E,            I,      O)       &kp SQT
+   &sk LSHIFT &kp Z &kp X &kp C     &kp D     &kp V         &kp K     &kp H      &kp COMMA     &kp DOT &kp FSLH &kp ESC
+                          &lt 1 ESC &lt 2 TAB &lt 3 SPACE   &lt 4 RET &lt 5 BSPC &mt LSHFT DEL
                         >;
                 };
                 layer1 {
@@ -111,9 +111,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N7       &kp N8       &kp N9       &kp N0       &kp PLUS         &kp N6   &kp N7   &kp N8   &kp N9   &kp N0    &kp BSPC
-   &trans     &kp N4       &kp N5       &kp N6       &kp MINUS    &kp EQUAL	  &trans   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans
-   &kp LSHFT  &kp N1       &kp N2       &kp N3       &kp DOT      &trans         &trans   &trans   &trans   &trans   &trans    &trans
+   &kp TAB    &kp AMPS       &kp N8       &kp N9       &kp N0       &kp PLUS         &kp N6   &kp N7   &kp N8   &kp N9   &kp N0    &kp BSPC
+   &trans     &kp DLLR       &kp N5       &kp N6       &kp MINUS    &kp EQUAL	  &trans   &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans
+   &kp LSHFT  &kp EXCL       &kp N2       &kp N3       &kp DOT      &trans         &trans   &trans   &trans   &trans   &trans    &trans
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
